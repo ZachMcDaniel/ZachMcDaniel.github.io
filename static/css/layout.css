@@ -15,11 +15,11 @@ h2 {
 */
 /* Do this if you want to change the color of the navbar */
 .navbar.bg-dark {
-  background-color: black !important;
+  background-color: #222222 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: white;
+  color: rgb(255,223,0)!important;
 }
 
 /* This will insert a space of height 75px before every id:
@@ -38,7 +38,7 @@ h2 {
    Jumbotron
 */
 .jumbotron.jumbotron-fluid {
-  background-color: black;
+  background-color: #222222;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -98,19 +98,29 @@ h2 {
 */
 footer {
   margin-top: 100px;
+  margin-bottom: 0px;
   padding-left: 25px;
-  background-color: black;
+  background-color: #222222;
   color: white;
-  height: 60px;
+  height: 100px;
   display: flex;
   align-items: center;
   padding-top: 15px;
+  text-align: inline;
+  font: bold;
 }
 
 .footer ul {
-  list-style-type: none;
+  list-style-type: row;
 }
 
-.footer li {
+.footer li{
   display: inline;
+  color: rgb(255,223,0);
 }
+.footer li.customclass {
+	color: white;
+}
+
+.footer li  :hover {
+	color:#ffdf00; }
