@@ -3,12 +3,14 @@
 */
 body {
   font-family: 'PT Mono', monospace;
+  min-height: 75vh;
 }
 
 h2 {
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
 }
+
 
 /* ------------------------------------
    Navigation
@@ -38,7 +40,7 @@ h2 {
    Jumbotron
 */
 .jumbotron.jumbotron-fluid {
-  background-color: #222222;
+  background-color: #57595D;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -51,24 +53,24 @@ h2 {
 /* ------------------------------------
    About Me
 */
-.about-me .container .col-md-4 {
+.about-me .container .me {
   background-size: cover;
   background-image: url("../images/about_pic.jpg");
   background-position:center;
   background-repeat:no-repeat;
   height: 500px;
   border-radius: 15px;
+  padding-right:100px;
 }
 
 .col-md-8 {
-  padding-left: 100px;
+  padding-left: 150px;
 }
 
 .about-text-title {
   font-size: 30px;
   font-weight: bold;
 }
-
 
 /* ------------------------------------
    section
@@ -90,6 +92,20 @@ h2 {
 .project-title {
   font-size: 20px;
   font-weight: bold;
+}
+
+.gold {
+    background-color: rgb(255, 223, 0) !important;
+    color: black !important;
+    width: 95%;
+    font-weight: bold !important;
+    border-radius: 20px;
+	border-color: black !important;
+    font-size: 15px;
+    text-align: center;
+}
+.gold:hover {
+	background-color: rgb(211, 211, 211) !important;
 }
 
 
