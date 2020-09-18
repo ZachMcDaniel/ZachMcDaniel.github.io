@@ -1,3 +1,2 @@
 # ZachMcDaniel.github.io
-Personal Website
-Purpose: Showcase projects and experiences in one location
+This personal website's purpose is to showcase my projects and experiences.
