@@ -3,7 +3,7 @@
 */
 body {
   font-family: 'PT Mono', monospace;
-  min-height: 75vh;
+  min-height: 100vh;
 }
 
 h2 {
@@ -61,6 +61,7 @@ h2 {
   height: 500px;
   border-radius: 15px;
   padding-right:100px;
+ 
 }
 .center {
 	text-align: center;
@@ -118,16 +119,21 @@ h2 {
 	float: left;
 }
 
+.height {
+	min-height: 100% !important
+}
+
 /* ------------------------------------
    Footer
 */
 footer {
+  
   margin-top: 100px;
   margin-bottom: 0px;
   padding-left: 25px;
   background-color: #222222;
   color: white;
-  height: 100px;
+  height: 120px;
   display: flex;
   align-items: center;
   padding-top: 15px;
